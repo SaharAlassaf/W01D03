@@ -25,12 +25,16 @@ nav{
 li{
     list-style: none;
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
 }
 
 a{
     text-decoration: solid;
     color: black;
+}
+
+a:hover{
+    color: white;
 }
 
 .image{
@@ -65,7 +69,7 @@ span a{
     color: blue;
 }
 
-p{
+footer p{
     display: flex;
     justify-content: center;
     font-size: 10px;
